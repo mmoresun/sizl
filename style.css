@@ -24,7 +24,7 @@ body {
     align-items: center;
     justify-content: center;
     justify-items: center;
-    border: 2px red solid;
+    /* border: 2px red solid; */
 
 }
 
@@ -101,11 +101,11 @@ body {
     color: #FFFFFF;
 }
 
-.slogan_small {
+.slogan__small {
     width: 705px;
 }
 
-.slogan_small>p {
+.slogan__small>p {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 100;
