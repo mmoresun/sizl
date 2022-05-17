@@ -73,6 +73,11 @@ body {
     opacity: 1;
     cursor: pointer;
     transition: 200ms;
+
+}
+
+.menu>h4:active {
+    color: #68d787;
 }
 
 .slogan {
@@ -224,7 +229,7 @@ h3 {
 
     display: flex;
     flex-direction: row;
-    margin-top: 64px;    
+    margin-top: 64px;
 
 }
 
@@ -250,6 +255,15 @@ h3 {
 
     background: #254c30;
     transition: 200ms;
+    cursor: pointer;
+
+}
+
+.subscription__form>button:active {
+
+    background: #53ab6c;
+    transition: 200ms;
+    cursor: pointer;
 
 }
 
@@ -267,6 +281,127 @@ h3 {
     font-size: 16px;
     line-height: 104%;
     color: #A6A6A6;
-    left: 16px;
+    padding-left: 16px;
+    text-decoration: none;
+
+}
+
+.hiring {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 164px;
+
+}
+
+.hiring__text {
+    text-align: center;
+}
+
+.hiring__announce {
+
+    width: 758px;
+    height: 251px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 64px;
+    overflow: hidden;
+
+}
+
+.hiring__announce_left {
+
+    width: 476px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+
+.hiring__announce_left>p {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 104%;
+    letter-spacing: -0.02em;
+    color: #000000;
+
+}
+
+.hiring__announce_left>h4 {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 104%;
+    color: #A6A6A6;
+}
+
+.hiring__links {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.hiring__links>a {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 104%;
+    color: #176AE5;
+    margin: 4px 0px;
+}
+
+
+.hiring__links>div {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 104%;
+    color: #176AE5;
+
+    border: 2px red solid;
+
+}
+
+.hiring__announce_right {
+
+    background: #F5E4FF;
+    width: 282px;
+    padding: 16px;
+    align-items: flex-end;
+    display: flex;
+}
+
+.hiring__announce_right>p {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 104%;
+    color: #737373;
+    width: 250px;
+}
+
+.benefits {
+
+}
+
+
+.benefits__blocks {
+
 
 }
