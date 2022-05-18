@@ -34,9 +34,9 @@ a {
 .wrapper {
 
     width: 1280px;
-    display: flex; 
+    display: flex;
     justify-content: center;
-    
+
     /* border: #53ab6c solid 1px; */
 
 }
@@ -494,4 +494,133 @@ h3 {
     letter-spacing: -0.02em;
     color: #6FB382;
 
+}
+
+.our__faces {
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 139px;
+    height: 310px;
+
+}
+
+.our__faces_cloud {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.our__faces_cloud_main {
+
+    box-sizing: border-box;
+    width: 375px;
+    background: #FFFFFF;
+    border: 0.5px solid rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 12px 48px rgba(0, 0, 0, 0.16);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 20px;
+    margin-right: 65px;
+    padding: 32px;
+
+}
+
+.our__faces_cloud_tail {
+
+    width: 40px;
+
+}
+
+
+.our__faces_alex {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+
+}
+
+.our__faces_alex>p {
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    margin-top: 10px;
+
+}
+
+.our__faces_alex>h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 104%;
+    text-align: center;
+    color: #CCCCCC;
+    margin-top: 2px;
+}
+
+.our__faces_alex>img {
+    width: 144px;
+}
+
+
+.our__faces_greentable {
+
+    background: #6FB282;
+    border-radius: 20px;
+    margin-left: 65px;
+    padding: 32px;
+    position: relative;
+}
+
+.our__faces_greentable>p {
+
+    width: 311px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 112%;
+    color: #FFFFFF;
+}
+
+.our__faces_greentable_man1 {
+
+    position: absolute;
+    top: 194px;
+    right: 70px;
+    z-index: 2;
+}
+
+.our__faces_greentable_man2 {
+
+    position: absolute;
+    right: 70px;
+    top: 291px;    
+}
+
+.our__faces_greentable_woman {
+
+    position: absolute;
+    top: 243px;
+    left: 71px;
+    z-index: 3;
+}
+
+.our__faces_greentable_man1>img {
+    width: 131px;
+}
+
+.our__faces_greentable_man2>img {
+    width: 131px;
+}
+
+.our__faces_greentable_woman>img {
+    width: 131px;
 }
