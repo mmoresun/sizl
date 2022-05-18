@@ -1,10 +1,18 @@
 * {
     margin: 0px;
     padding: 0px;
+
+    /* border: none;
+    box-sizing: border-box; */
 }
 
 body {
     background-color: black;
+    font-family: 'Inter';
+}
+
+a {
+    text-decoration: none;
 }
 
 .container {
@@ -25,6 +33,7 @@ body {
     justify-content: center;
     justify-items: center;
 
+    /* border: #53ab6c solid 1px; */
 
 }
 
@@ -60,7 +69,6 @@ body {
 
 .menu>h4 {
     margin: 0px 20px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -96,7 +104,6 @@ body {
 
 .slogan__big>p {
 
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
@@ -114,7 +121,7 @@ body {
 }
 
 .slogan__small>p {
-    font-family: 'Inter';
+
     font-style: normal;
     font-weight: 100;
     font-size: 24px;
@@ -145,7 +152,6 @@ body {
 
 .footer__text>h5 {
 
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -157,7 +163,6 @@ body {
 
 .footer__text>h6 {
 
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -203,7 +208,6 @@ body {
 
 .subscription__text_bottom>p {
 
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -215,7 +219,7 @@ body {
 }
 
 h3 {
-    font-family: 'Inter';
+
     font-style: normal;
     font-weight: 900;
     font-size: 64px;
@@ -241,7 +245,7 @@ h3 {
     border-radius: 10px;
     margin-left: 4px;
 
-    font-family: 'Inter';
+
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -275,7 +279,7 @@ h3 {
     border-radius: 10px;
     margin-right: 4px;
 
-    font-family: 'Inter';
+
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -325,7 +329,6 @@ h3 {
 
 .hiring__announce_left>p {
 
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
     font-size: 20px;
@@ -337,7 +340,6 @@ h3 {
 
 .hiring__announce_left>h4 {
 
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -353,7 +355,6 @@ h3 {
 
 .hiring__links>a {
 
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -365,7 +366,6 @@ h3 {
 
 .hiring__links>div {
 
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -387,7 +387,7 @@ h3 {
 
 .hiring__announce_right>p {
 
-    font-family: 'Inter';
+
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -398,10 +398,70 @@ h3 {
 
 .benefits {
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 127px;
+
 }
 
 
-.benefits__blocks {
+.benefits__text {
 
+    width: 869px;
+}
 
+.benefits__text>p {
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 104%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.benefits__block {
+    display: flex;
+    flex-direction: row;
+    margin-top: 64px;
+}
+
+.benefits__block_item {
+
+    width: 304px;
+    height: 205px;
+    left: 812px;
+    top: 252px;
+    background: #F4F4F4;
+    border-radius: 12px;
+    margin: 12px;
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.benefits__block_item>p {
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 104%;
+    letter-spacing: -0.02em;
+    color: #000000;
+
+}
+
+.benefits__block_item>h4 {
+
+    width: 272px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 104%;   
+    color: #555555;
+    padding-top: 8px;
 }
