@@ -512,7 +512,11 @@ h3 {
     flex-direction: row;
     margin-right: 70px;
     width: 415px;
-    height: 310px;
+    height: 308px;
+    background-color: white;
+    border-radius: 30px;
+    border: 2px white solid;
+    
 
 }
 
@@ -523,10 +527,10 @@ h3 {
     width: 395px;
     background-color: rgb(255, 255, 255);
 
-    border: 5px rgb(255, 255, 255) solid;
+    border-bottom: 1px rgb(255, 255, 255) solid;
     padding-left: 32px;
     padding-top: 32px;
-    border-radius: 20px 0px 00px 20px;
+    border-radius: 30px 0px 00px 30px;
 
 
 }
@@ -566,6 +570,7 @@ h3 {
     width: 184px;
     height: 48px;
     margin-top: 44px;
+    
 }
 
 .our_faces_cloud_content>button:hover {
@@ -583,14 +588,15 @@ h3 {
     border: 0.5px solid rgba(0, 0, 0, 0.24);
     box-shadow: 0px 12px 48px rgba(255, 255, 255, 0.16);
     transform: matrix(-1, 0, 0, 1, 0, 0);
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 30px 0px 0px 35px;
 
-    border: white 2px solid;
+    border: rgb(255, 255, 255) 4px solid;
 
 }
 
 
 .our__faces_cloud_main:after {
+
     content: "";
     position: absolute;
     right: 100%;
@@ -600,10 +606,7 @@ h3 {
     border-top: 15px solid transparent;
     border-right: 30px solid white;
     border-bottom: 15px solid transparent;
-    border-end-start-radius: 20px;
-
-
-
+    border-end-start-radius: 2px;
 }
 
 
