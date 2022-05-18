@@ -6,9 +6,15 @@
     box-sizing: border-box; */
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
+
     background-color: black;
     font-family: 'Inter';
+
 }
 
 a {
@@ -20,19 +26,17 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    justify-items: center;
     width: 100%;
-
-
 }
 
 .wrapper {
 
     width: 1280px;
-    align-content: center;
-    align-items: center;
+    display: flex; 
     justify-content: center;
-    justify-items: center;
-
+    
     /* border: #53ab6c solid 1px; */
 
 }
@@ -40,7 +44,7 @@ a {
 .header {
     display: flex;
     flex-direction: row;
-    max-width: 100%;
+    width: 100%;
     justify-content: space-between;
     margin-top: 57px;
     margin-left: 64px;
@@ -67,7 +71,7 @@ a {
 
 }
 
-.menu>h4 {
+.menu>a {
     margin: 0px 20px;
     font-style: normal;
     font-weight: 500;
@@ -77,14 +81,14 @@ a {
     opacity: 0.8;
 }
 
-.menu>h4:hover {
+.menu>a:hover {
     opacity: 1;
     cursor: pointer;
     transition: 200ms;
 
 }
 
-.menu>h4:active {
+.menu>a:active {
     color: #68d787;
 }
 
@@ -351,6 +355,7 @@ h3 {
 
     display: flex;
     flex-direction: column;
+
 }
 
 .hiring__links>a {
@@ -361,8 +366,14 @@ h3 {
     line-height: 104%;
     color: #176AE5;
     margin: 4px 0px;
+
 }
 
+/* 
+.links__underline {
+    border-bottom: 2px solid #176AE5;
+    max-width: 100%;
+} */
 
 .hiring__links>div {
 
@@ -461,7 +472,26 @@ h3 {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 104%;   
+    line-height: 104%;
     color: #555555;
     padding-top: 8px;
+}
+
+.about-us {
+
+    width: 686px;
+    margin-top: 220px;
+
+}
+
+.about-us>p {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 104%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #6FB382;
+
 }
