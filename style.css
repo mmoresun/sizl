@@ -13,12 +13,14 @@ html {
 body {
 
     background-color: black;
-    font-family: 'Inter', Helvetica, Arial, Sans-serif;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
 
 }
 
 a {
     text-decoration: none;
+    color: #176AE5;
+    border-bottom: 1px solid #5F97EA;
 }
 
 .container {
@@ -76,6 +78,7 @@ a {
     line-height: 110%;
     color: #6FB282;
     opacity: 0.8;
+    border: none;
 }
 
 .menu>a:hover {
@@ -358,7 +361,6 @@ h3 {
     font-weight: 400;
     font-size: 16px;
     line-height: 104%;
-    color: #176AE5;
     margin: 4px 0px;
 
 }
@@ -375,7 +377,6 @@ h3 {
     font-weight: 400;
     font-size: 16px;
     line-height: 104%;
-    color: #176AE5;
 
     /* border: 2px red solid; */
 
@@ -393,7 +394,7 @@ h3 {
 .hiring__announce_right>p {
 
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
     line-height: 104%;
     color: #737373;
@@ -463,7 +464,7 @@ h3 {
 
     width: 272px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
     line-height: 104%;
     color: #555555;
@@ -661,7 +662,7 @@ h3 {
 
     width: 311px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 112%;
     color: #FFFFFF;
@@ -717,7 +718,7 @@ main p {
 main h4 {
 
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     line-height: 104%;   
     color: #CCCCCC;
