@@ -112,11 +112,8 @@ a {
     font-weight: 900;
     font-size: 96px;
     line-height: 92%;
-    /* or 88px */
-
     text-align: center;
     letter-spacing: -0.02em;
-
     color: #FFFFFF;
 }
 
@@ -127,7 +124,7 @@ a {
 .slogan__small>p {
 
     font-style: normal;
-    font-weight: 100;
+    font-weight: medium;
     font-size: 24px;
     line-height: 110%;
     text-align: center;
@@ -383,7 +380,7 @@ h3 {
     line-height: 104%;
     color: #176AE5;
 
-    border: 2px red solid;
+    /* border: 2px red solid; */
 
 }
 
@@ -397,7 +394,6 @@ h3 {
 }
 
 .hiring__announce_right>p {
-
 
     font-style: normal;
     font-weight: 400;
@@ -521,6 +517,7 @@ h3 {
 }
 
 .our_faces_cloud_content {
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;    
@@ -531,7 +528,6 @@ h3 {
     padding-left: 32px;
     padding-top: 32px;
     border-radius: 30px 0px 00px 30px;
-
 
 }
 
@@ -549,7 +545,7 @@ h3 {
 .our_faces_cloud_content>h4 {
 
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
     line-height: 112%;
     width: 311px;
@@ -589,7 +585,6 @@ h3 {
     box-shadow: 0px 12px 48px rgba(255, 255, 255, 0.16);
     transform: matrix(-1, 0, 0, 1, 0, 0);
     border-radius: 30px 0px 0px 35px;
-
     border: rgb(255, 255, 255) 4px solid;
 
 }
