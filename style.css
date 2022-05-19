@@ -46,10 +46,7 @@ a {
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
-    margin-top: 57px;
-    margin-left: 64px;
-    margin-right: 64px;
-    margin-bottom: 0px;
+    margin: 56px 64px 0 64px;
 
     /* border: 1px white solid; */
 
