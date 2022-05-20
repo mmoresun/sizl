@@ -711,7 +711,7 @@ main p {
     line-height: 104%;
     letter-spacing: -0.02em;
     color: #FFFFFF;
-    margin-right: 10px;
+    margin-right: 5px;
 
 }
 
@@ -720,7 +720,7 @@ main h4 {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 104%;   
+    line-height: 104%;
     color: #CCCCCC;
     opacity: 0.64;
     width: 270px;
@@ -733,10 +733,11 @@ main h4 {
     margin-top: 64px;
     background: url('images/orange_line.svg');
     background-repeat: no-repeat;
-    background-position-x: 240px;
+    background-position-x: 215px;
     background-position-y: top;
     width: 1280px;
-    height: 400px;    
+    height: 400px;
+    
 }
 
 
@@ -746,7 +747,7 @@ main h4 {
     flex-direction: row;
     width: 1000px;
     align-self: center;
-    
+
 
 }
 
@@ -754,7 +755,7 @@ main h4 {
 
     display: flex;
     flex-direction: row;
-    
+    width: 1280px;
 
 }
 
@@ -762,7 +763,7 @@ main h4 {
 
     display: flex;
     flex-direction: column;
-    margin: 0px 10px;
+    margin: 0px 3px;
 }
 
 .main__block_top {
@@ -770,7 +771,7 @@ main h4 {
     display: flex;
     flex-direction: row;
     margin-bottom: 8px;
-    
+
 
 }
 
@@ -778,22 +779,69 @@ main h4 {
 
 #main__dishes {
 
-    position: relative;
+    position: relative;    
 }
 
 #main__dish1 {
 
     position: absolute;
-    left: 30px;
-    top: 10px;
-    
+    left: 25px;
+    top: 0px;
+
 }
 
 #main__dish2 {
 
-    position: absolute;    
-    top: 30px;
-    left: 70px;    
+    position: absolute;
+    top: 25px;
+    left: 60px;
     z-index: 3;
-   
+
+}
+
+.main h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 104%;
+    letter-spacing: -0.02em;
+    color: #CCCCCC;
+}
+
+.main__top_readyto {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 300;
+}
+
+
+
+.main__top_readyto_d1 {
+    grid-area: 1 / 1 / 2 / 2;
+    margin-right: 6px;
+}
+
+.main__top_readyto_d2 {
+    grid-area: 1 / 2 / 2 / 3;
+    
+}
+
+.main__top_readyto_d3 {
+    
+    grid-area: 2 / 2 / 3 / 3;    
+    margin-top: 8px;
+}
+
+#main__yellowline {
+    padding: 0px;
+    margin: 0px;
+}
+
+#main__blueline {
+    padding: 0px;
+    margin: 0px;
 }
