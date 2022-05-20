@@ -288,6 +288,10 @@ h3 {
 
 }
 
+input:focus, button:focus {
+    outline: none;
+}
+
 .hiring {
 
     display: flex;
