@@ -712,6 +712,7 @@ main p {
     letter-spacing: -0.02em;
     color: #FFFFFF;
     margin-right: 5px;
+    margin-bottom: 8px;  
 
 }
 
@@ -723,7 +724,7 @@ main h4 {
     line-height: 104%;
     color: #CCCCCC;
     opacity: 0.64;
-    width: 270px;
+    width: 270px;    
 }
 
 .main {
@@ -751,12 +752,33 @@ main h4 {
 
 }
 
+.main__middle_row {
+
+    display: flex;
+    flex-direction: row;
+    width: 1280px;        
+    position: relative;
+    align-self: center;
+    margin-top: 7%;
+
+}
+
 .main__bottom_row {
 
     display: flex;
     flex-direction: row;
-    width: 1280px;
+    width: 800px;
 
+    position: relative;
+    justify-content: space-around;
+
+
+}
+
+#main__block_wrapper_down {
+
+    position: absolute;
+    
 }
 
 .main__block_wrapper {
@@ -764,14 +786,13 @@ main h4 {
     display: flex;
     flex-direction: column;
     margin: 0px 3px;
+    
 }
 
 .main__block_top {
 
     display: flex;
     flex-direction: row;
-    margin-bottom: 8px;
-
 
 }
 
@@ -780,21 +801,22 @@ main h4 {
 #main__dishes {
 
     position: relative;    
+    width: 300px;
 }
 
 #main__dish1 {
 
     position: absolute;
     left: 25px;
-    top: 0px;
+    top: -75px;
 
 }
 
 #main__dish2 {
 
     position: absolute;
-    top: 25px;
-    left: 60px;
+    top: -65px;
+    left: 63px;
     z-index: 3;
 
 }
@@ -806,6 +828,8 @@ main h4 {
     line-height: 104%;
     letter-spacing: -0.02em;
     color: #CCCCCC;
+    text-align: left;
+    
 }
 
 .main__top_readyto {
@@ -833,7 +857,7 @@ main h4 {
 .main__top_readyto_d3 {
     
     grid-area: 2 / 2 / 3 / 3;    
-    margin-top: 8px;
+    
 }
 
 #main__yellowline {
@@ -844,4 +868,42 @@ main h4 {
 #main__blueline {
     padding: 0px;
     margin: 0px;
+}
+
+#main__block_rightpics {
+
+    position: relative;   
+    top: -140px;
+    right: 0px; 
+}
+
+#main__block_rightpics_inner {
+
+    position: relative;
+}
+
+#main__block_rightpics_cup {
+
+    position: absolute;
+    top: 60px;
+    right: -120px;
+
+ }
+
+#main__block_rightpics_clicker {
+
+    position: absolute;
+    top: -30px;
+    right: -320px;
+
+}
+
+#main_fuchsialine {
+    width: 83px;
+    height: 65px;
+}
+
+#itsol {
+    margin-left: 0px;
+    
 }
