@@ -288,7 +288,8 @@ h3 {
 
 }
 
-input:focus, button:focus {
+input:focus,
+button:focus {
     outline: none;
 }
 
@@ -716,7 +717,7 @@ main p {
     letter-spacing: -0.02em;
     color: #FFFFFF;
     margin-right: 5px;
-    margin-bottom: 8px;  
+    margin-bottom: 8px;
 
 }
 
@@ -728,7 +729,7 @@ main h4 {
     line-height: 104%;
     color: #CCCCCC;
     opacity: 0.64;
-    width: 270px;    
+    width: 270px;
 }
 
 .main {
@@ -742,7 +743,7 @@ main h4 {
     background-position-y: top;
     width: 1280px;
     height: 400px;
-    
+
 }
 
 
@@ -760,7 +761,7 @@ main h4 {
 
     display: flex;
     flex-direction: row;
-    width: 1280px;        
+    width: 1280px;
     position: relative;
     align-self: center;
     margin-top: 7%;
@@ -782,7 +783,7 @@ main h4 {
 #main__block_wrapper_down {
 
     position: absolute;
-    
+
 }
 
 .main__block_wrapper {
@@ -790,7 +791,7 @@ main h4 {
     display: flex;
     flex-direction: column;
     margin: 0px 3px;
-    
+
 }
 
 .main__block_top {
@@ -804,7 +805,7 @@ main h4 {
 
 #main__dishes {
 
-    position: relative;    
+    position: relative;
     width: 300px;
 }
 
@@ -833,7 +834,7 @@ main h4 {
     letter-spacing: -0.02em;
     color: #CCCCCC;
     text-align: left;
-    
+
 }
 
 .main__top_readyto {
@@ -855,13 +856,13 @@ main h4 {
 
 .main__top_readyto_d2 {
     grid-area: 1 / 2 / 2 / 3;
-    
+
 }
 
 .main__top_readyto_d3 {
-    
-    grid-area: 2 / 2 / 3 / 3;    
-    
+
+    grid-area: 2 / 2 / 3 / 3;
+
 }
 
 #main__yellowline {
@@ -876,9 +877,9 @@ main h4 {
 
 #main__block_rightpics {
 
-    position: relative;   
+    position: relative;
     top: -140px;
-    right: 0px; 
+    right: 0px;
 }
 
 #main__block_rightpics_inner {
@@ -892,7 +893,7 @@ main h4 {
     top: 60px;
     right: -120px;
 
- }
+}
 
 #main__block_rightpics_clicker {
 
@@ -909,5 +910,131 @@ main h4 {
 
 #itsol {
     margin-left: 0px;
+
+}
+
+#dish__item_slider {
+
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+#dish__item {
+
+    width: 295px;
+    height: 650px;
+    background-color: white;
+    padding: 1px;
+    flex-direction: column;
     
+}
+
+.phone {
+    margin-top: 68px;
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#phone__screen_top {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#phone__screen_middle {
+
+    
+    display: flex;
+    flex-direction: row;
+
+  
+
+}
+
+#phone__screen_bottom {
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+
+#phone__screen_mainscreeen {
+
+    display: flex;
+    width: 300px;    
+    overflow: hidden;
+    
+
+}
+
+#phone_screen_leftborder {
+
+    display: flex;
+
+    background-image: url(images/phone-left-web.png);
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 482px;
+    background-position-x: .2px;
+    border-right: 3px black solid;
+    overflow: hidden;
+    
+
+}
+
+#phone_screen_rightorder {
+
+    display: flex;
+    background-image: url(images/phone-right-web.png);
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 482px;
+    border-left: 3px black solid;
+    overflow: hidden;
+
+    
+}
+
+#phone_screen_topborder {
+
+    background-image: url(images/phone-top-web.png);
+    width: 330px;
+    height: 52px;
+    overflow: hidden;
+    
+
+    
+}
+
+#phone_screen_bottomborder {
+
+    background-image: url(images/phone-bottom-web.png);
+    background-repeat: no-repeat;
+    width: 332px;
+    height: 47px;
+    background-position-x: 1px;
+    overflow: hidden;
+
+}
+
+#dish_slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#dish_item {
+
+    width: 332px;
+    height: 480px;
+    background-color: #ffffff;
 }
