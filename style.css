@@ -913,128 +913,67 @@ main h4 {
 
 }
 
-#dish__item_slider {
+
+#phone {
 
     display: flex;
+    justify-content: center;
+    margin-top: 68px;
+    width: 1280px;
+    overflow: hidden;
+
+}
+
+#phone__dish_slider {
+    display: flex;
     flex-direction: row;
-
-
+    justify-content: center;
 }
 
 #dish__item {
 
-    width: 295px;
-    height: 650px;
-    background-color: white;
-    padding: 1px;
-    flex-direction: column;
-    
-}
-
-.phone {
-    margin-top: 68px;
-    width: 1280px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-#phone__screen_top {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-}
-
-#phone__screen_middle {
-
-    
-    display: flex;
-    flex-direction: row;
-
-  
-
-}
-
-#phone__screen_bottom {
-
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
-
-}
-
-#phone__screen_mainscreeen {
-
-    display: flex;
-    width: 300px;    
-    overflow: hidden;
-    
-
-}
-
-#phone_screen_leftborder {
-
-    display: flex;
-
-    background-image: url(images/phone-left-web.png);
-    background-repeat: no-repeat;
-    width: 15px;
-    height: 482px;
-    background-position-x: .2px;
-    border-right: 3px black solid;
-    overflow: hidden;
-    
-
-}
-
-#phone_screen_rightorder {
-
-    display: flex;
-    background-image: url(images/phone-right-web.png);
-    background-repeat: no-repeat;
-    width: 15px;
-    height: 482px;
-    border-left: 3px black solid;
-    overflow: hidden;
-
-    
-}
-
-#phone_screen_topborder {
-
-    background-image: url(images/phone-top-web.png);
-    width: 330px;
-    height: 52px;
-    overflow: hidden;
-    
-
-    
-}
-
-#phone_screen_bottomborder {
-
-    background-image: url(images/phone-bottom-web.png);
-    background-repeat: no-repeat;
-    width: 332px;
-    height: 47px;
-    background-position-x: 1px;
-    overflow: hidden;
-
-}
-
-#dish_slider {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-#dish_item {
-
-    width: 332px;
-    height: 480px;
+    width: 317px;
+    height: 600px;
     background-color: #ffffff;
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+#dish__item p {
+
+    font-weight: 900;
+    font-size: 30.4072px;
+    line-height: 88%;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin-top: 20px;
+
+}
+
+#dish__item h4 {
+    font-weight: 400;
+    font-size: 12.1629px;
+    line-height: 104%;
+    color: #777777;
+    margin-top: 20px;
+}
+
+#dish__item h5 {
+    font-weight: 900;
+    font-size: 18.2443px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    color: #000000;
+    margin-top: 20px;
+}
+
+#dish__item h6 {
+    font-weight: 700;
+    font-size: 12.1629px;
+    line-height: 130%;
+    color: #000000;
+    margin-top: 20px;
+    
 }
