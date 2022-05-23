@@ -917,31 +917,41 @@ main h4 {
 #phone {
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-content: flex-end;
     margin-top: 68px;
-    width: 1280px;
+    width: 330px;
+    height: 650px;
     overflow: hidden;
+    position: relative;    
+    
 
 }
 
 #phone__dish_slider {
+
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: row;         
+    position: absolute;   
+    top:0;    
 }
 
-#dish__item {
+.dish__item {
 
-    width: 317px;
+    width: 330px;
     height: 600px;
     background-color: #ffffff;
     margin: 1px;
     display: flex;
-    flex-direction: column;
-    padding: 30px;
+    flex-direction: column;    
+    
 }
 
-#dish__item p {
+
+
+
+.dish__item p {
 
     font-weight: 900;
     font-size: 30.4072px;
@@ -949,31 +959,108 @@ main h4 {
     letter-spacing: -0.02em;
     color: #000000;
     margin-top: 20px;
+    width: 300px;
+    align-self: center;
 
 }
 
-#dish__item h4 {
+.dish__item h4 {
     font-weight: 400;
     font-size: 12.1629px;
     line-height: 104%;
     color: #777777;
     margin-top: 20px;
+    width: 300px;
+    align-self: center;
 }
 
-#dish__item h5 {
+.dish__item h5 {
     font-weight: 900;
     font-size: 18.2443px;
     line-height: 100%;
     letter-spacing: -0.01em;
     color: #000000;
     margin-top: 20px;
+    width: 300px;
+    align-self: center;
 }
 
-#dish__item h6 {
+.dish__item h6 {
     font-weight: 700;
     font-size: 12.1629px;
     line-height: 130%;
     color: #000000;
     margin-top: 20px;
+    width: 300px;
+    align-self: center;
     
 }
+
+#phone__navigation {
+    
+    bottom: 0px;        
+    display: flex;
+    display: -ms-flex;
+    display: -moz-flex;
+    display: -webkit-flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    align-self: center;
+
+
+}
+
+#slider-nav {
+    width: 50px;
+    height: 8px;
+    border: 1px solid #6FB382;;
+    cursor: pointer;
+    transition: 200ms;
+    margin: 5px;
+    display: block;
+    
+}
+
+#slider-nav:hover {
+    background-color: #528360;;
+}
+
+ #slider-nav:active {
+    background-color: #6FB382;;
+}
+
+#phone input {
+    
+    display: none;    
+        
+}
+
+#slider1:checked ~ #slider1 {
+    margin-left: 0;
+    transition: 500ms ease;
+}
+
+#slider2:checked ~ #slider1 {
+    margin-left: -332px;
+    transition: 500ms ease;
+
+}
+
+#slider3:checked ~ #slider1 {
+    margin-left: -664px;
+    transition: 500ms ease;
+
+}
+
+#slider4:checked ~ #slider1 {
+    margin-left: -996px;    
+    transition: 500ms ease;
+}
+
+#slider5:checked ~ #slider1 {
+    margin-left: -1328px;    
+    transition: 500ms ease;
+}
+
+
