@@ -26,6 +26,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-content: center;
     justify-content: center;
     justify-items: center;
     width: 100%;
@@ -36,6 +37,7 @@ a {
     width: 1280px;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 
     /* border: #53ab6c solid 1px; */
 
@@ -798,6 +800,7 @@ main h4 {
 
     display: flex;
     flex-direction: row;
+    
 
 }
 
@@ -871,8 +874,9 @@ main h4 {
 }
 
 #main__blueline {
-    padding: 0px;
-    margin: 0px;
+
+    padding: 0;
+   
 }
 
 #main__block_rightpics {
@@ -913,6 +917,13 @@ main h4 {
 
 }
 
+#phone>img {
+    z-index: 3000;
+    position: absolute;
+    width: 340px;
+    display: flex;
+    align-content: flex-start;
+}
 
 #phone {
 
@@ -920,54 +931,72 @@ main h4 {
     flex-direction: column;
     justify-content: center;
     align-content: flex-end;
-    margin-top: 68px;
+    margin-top: 38px;
     width: 340px;
     height: 800px;
-    overflow: hidden;
-    position: relative;    
-/* 
-    border: 1px green solid; */
-       
+    /* overflow: hidden; */
+    position: relative;
+
+    /* border: 1px green solid; */
 
 }
 
 #phone__dish_slider {
 
     display: flex;
-    flex-direction: row;         
-    position: absolute;   
-    top: 80px;
-    
+    flex-direction: row;
+    position: absolute;
+    top: 85px;
+    z-index: 12;
+ 
+
 }
 
 .dish__item {
 
     width: 320px;
-    height: 639px;
-    background-color: #ffffff;
+    height: 630px;
     margin: 5px;
     display: flex;
-    flex-direction: column;    
-    border-radius: 39px;       
-    
+    flex-direction: column;
+    border-radius: 39px;
+    /* z-index: 1; */
+
 }
 
 
 #transparent__iphone {
 
-    background-image: url(images/iphone__cutted.png);
-    background-repeat: no-repeat;
-    background-size: 340px;
+    /* background-image: url(images/iphone__cutted.png); */
+    /* background-repeat: no-repeat;
+    background-size: 330px; */
+    /* background-color: rgba(1, 1, 1, 0); */
+    /* width: 340px;
+    height: 682px; */
+    /* position: absolute; */
+    /* top: 40px; */
+    /* right: 0px; */
+    /* align-self: center; */
+    /* z-index: 1000; */
+    
+    /* border: 1px red solid; */
+    padding: 0;
+
+}
+
+
+#transparent__iphone_bckgrnd {
+
+    background: rgb(255, 255, 255, 1);
     width: 340px;
-    height: 700px;
-    z-index: 100;
-    position: absolute;
-    top: 55px;
-    right: 0px;
-    align-self: center;
-/* 
-    border: 1px red solid; */
-        
+    height: 680px;
+    /* background-image: url(images/iphone__cutted.png); */
+    background-size: 340px;
+    background-repeat: no-repeat;
+    /* z-index: 100; */
+
+    /* border: 1px fuchsia solid; */
+
 }
 
 .dish__item>img {
@@ -1019,12 +1048,12 @@ main h4 {
     margin-top: 20px;
     width: 280px;
     align-self: center;
-    
+
 }
 
 #phone__navigation {
-    
-    bottom: 0px;        
+
+    bottom: 0px;
     display: flex;
     display: -ms-flex;
     display: -moz-flex;
@@ -1040,57 +1069,65 @@ main h4 {
 #slider-nav {
     width: 50px;
     height: 8px;
-    border: 1px solid #6FB382;;
+    border: 1px solid #6FB382;
+    ;
     cursor: pointer;
     transition: 200ms;
     margin: 5px;
     display: block;
 
-    
+
 }
 
 #slider-nav:hover {
-    background-color: #528360;;
+    background-color: #528360;
+    ;
 }
 
- #slider-nav:active {
-    background-color: #6FB382;;
+#slider-nav:active {
+    background-color: #6FB382;
+    ;
 }
 
 #phone input {
-    
-    display: none;    
-        
+
+    display: none;
+
 }
 
 #slider1 {
-    margin-left: 15px;
+    /* margin-left: 15px; */
+    margin-left: -39.5%;
 }
 
-#slider1:checked ~ #slider1 {
-    margin-left: 15px;
+#slider1:checked~#slider1 {
+    /* margin-left: 15px; */
+    margin-left: .5%;
     transition: 500ms ease;
 }
 
-#slider2:checked ~ #slider1 {
-    margin-left: -315px;
-    transition: 500ms ease;
-
-}
-
-#slider3:checked ~ #slider1 {
-    margin-left: -645px;
+#slider2:checked~#slider1 {
+    /* margin-left: -315px; */
+    margin-left: -19.5%;
     transition: 500ms ease;
 
 }
 
-#slider4:checked ~ #slider1 {
-    margin-left: -975px;    
+#slider3:checked~#slider1 {
+    /* margin-left: -645px; */
+    margin-left: -39.5%;
+    transition: 500ms ease;
+
+}
+
+#slider4:checked~#slider1 {
+    /* margin-left: -975px;     */
+    margin-left: -59.5%;
     transition: 500ms ease;
 }
 
-#slider5:checked ~ #slider1 {
-    margin-left: -1305px;    
+#slider5:checked~#slider1 {
+    /* margin-left: -1305px;     */
+    margin-left: -79.5%;
     transition: 500ms ease;
 }
-
