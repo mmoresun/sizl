@@ -1165,5 +1165,29 @@ main h4 {
 #slider5:checked~#slider1 {
     /* margin-left: -1305px;     */
     margin-left: -79.5%;
-    transition: 500ms ease;
+    transition: 500ms ease;    
+}
+
+#weare {
+    display: flex;
+    justify-content: center;    
+    width: 810px;
+    margin-top: 90px;
+    margin-bottom: 10px;
+}
+
+#weare p {
+
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+#weare span {
+
+    color: #6FB282;
+
 }
