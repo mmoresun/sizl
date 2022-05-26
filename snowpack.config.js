@@ -8,14 +8,15 @@ module.exports = {
     src: { url: '/dist' },
   },
   plugins: [
-    ['@snowpack/plugin-sass'],
     [
-      '@snowpack/plugin-webpack',
+      'snowpack-plugin-posthtml',
       {
-        /* see "Plugin Options" below */
+        root: './www/',
+        encoding: 'utf-8',
       },
     ],
-    ['snowpack-plugin-cache-bust'],
+    ['@snowpack/plugin-sass'],
+    ['@snowpack/plugin-webpack'],
   ],
   packageOptions: {
     /* ... */

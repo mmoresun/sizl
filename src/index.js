@@ -1,4 +1,4 @@
-const slider = document.getElementById('phone__dish_slider')
+const slider = document.querySelector('.dish_slider')
 const spacer = slider.querySelector('.phone__left-spacer')
 
 const slideWidth = 330

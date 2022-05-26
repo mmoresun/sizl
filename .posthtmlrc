@@ -1,0 +1,8 @@
+{
+  "plugins": {
+    "posthtml-include": {
+      root: './www/',
+      encoding: 'utf-8'
+    }
+  }
+}
