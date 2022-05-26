@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: 16
           cache: 'yarn'
-        run: |
+      - run: |
           yarn install --frozen-lockfile
           yarn build
       - name: Deploy 🚀
