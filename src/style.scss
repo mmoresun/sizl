@@ -2,8 +2,6 @@
     margin: 0px;
     padding: 0px;
 
-    /* border: none;
-    box-sizing: border-box; */
 }
 
 html {
@@ -37,7 +35,10 @@ a {
     width: 1280px;
     display: flex;
     justify-content: center;
-    overflow: hidden;
+    align-content: center;
+    align-content: center;
+    justify-self: center;
+    /* overflow: hidden; */
 
     /* border: #53ab6c solid 1px; */
 
@@ -49,8 +50,6 @@ a {
     width: 100%;
     justify-content: space-between;
     margin: 56px 64px 0 64px;
-
-    /* border: 1px white solid; */
 
 
 }
@@ -925,6 +924,11 @@ main h4 {
     align-content: flex-start;
 }
 
+#phone__main {
+    width: 1510px;
+    overflow: hidden;
+}
+
 #phone {
 
     display: flex;
@@ -963,13 +967,14 @@ main h4 {
     align-self: flex-end;
     z-index: 111111;
     background: black;
+    width: 100%;
+
 }
 
-.phone__sideborder>img {
-    width: 470px;
+#phone__sideborder>img {
+    width: 200%;
     height: 430px;
-    /* border: #6FB382 1px solid; */
-    z-index: 5000;
+    z-index: 4000;
 }
 
 #phone__dish_slider {
@@ -1160,11 +1165,11 @@ main h4 {
 /*    transition: 500ms ease;*/
 /*}*/
 
-/*#slider5:checked~#slider1 {*/
-/*    !* margin-left: -1305px;     *!*/
-/*    margin-left: -79.5%;*/
-/*    transition: 500ms ease;    */
-/*}*/
+#slider5:checked~#slider1 {
+    /* margin-left: -1305px;     */
+    margin-left: -79.5%;
+    transition: 500ms ease;
+}
 
 #weare {
     display: flex;
@@ -1185,9 +1190,16 @@ main h4 {
 }
 
 #weare span {
-
     color: #6FB282;
+}
 
+@media (max-width: 960px) {
+
+    .benefits__block {
+
+        flex-direction: column;
+        align-self: center
+    }
 }
 
 /*! locomotive-scroll v4.1.3 | MIT License | https://github.com/locomotivemtl/locomotive-scroll */
